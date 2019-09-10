@@ -150,7 +150,7 @@ export function  Bug (game, animations){
                if(this.isFlying < 2){
                  Sound["jump"]()
                  this.currentState = "jump";
-                 this.jumpSpeed=0.092	;
+                 this.jumpSpeed=0.089	;
                  this.isFlying ++;
                };
            }, 
